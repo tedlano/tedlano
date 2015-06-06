@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Google Location History</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="icon" type="image/png" href="../img/favicon.png">
+
+		<!-- jQuery -->
+		<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+	 
+		<!-- DataTables -->
+		<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+		<script> 
+			$(function(){
+  				$(".header_container").load("../header.html");
+  				$(".footer_container").load("../footer.html"); 
+			});
+		</script> 
+		<script type="text/javascript" src="../js/main.js"></script>
+		<script type="text/javascript" src="./tedZone.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+
+
+	<body>
+		<a id="top"></a>
+		<div class="sticky">
+			<div class="header_container"></div>
+		</div>
+
+		<div>
+			<div class="content">
+				<h1>Relive Your Days via Google Location History</h1>
+				<p>
+					This will probably come as a shock to most people, but it is also extremely fascinating.  If you regularly use some of Google's services on your smartphone (ie. Maps), you likely have an extensive history log stored on Google's servers.  At first this seems extemely intrusive and a violation of privacy.  However, one must be vaguely aware that in order to use Google Maps, your GPS coordinates need to be sent to Google.  Storing that historical information is another story, but you can always disable the feature by modifying your <a href="https://myaccount.google.com/" target="_blank">privacy settings</a>.  However, I am a data nerd, so I'm going to leave mine on and show you how to view your location history and relive your life through Google.
+					<br/><br/>
+					<i>Note: This works best when using a personal computer.  The smaller the device (ie. smartphone), the less clear it will be.  I suggest you follow these steps using a laptop or tablet.</i>
+				</p>
+				<br />
+				<div class="separator"></div>
+			</div>
+
+			<div class="content">
+				<ol>
+					<h4><li>View Google Location History</h4>
+						<p>
+							Navigate to the <a href="https://maps.google.com/locationhistory/b/0" target="_blank">Google Location History</a> webpage and login to your account.  Here is where you can view and burn a couple of hours revisiting the past and remembering some of the smaller details of your life.  Here, you can select the timeframe that you want to view (up to 30 day span).  I've chosen one of my more eventful months: January 2015.
+							<br/><br/>
+							<img src="./img/googleLoc_1.png" align="middle" width="100%">
+							<br/><br/>
+							Right now, it just has all of the points plotted, but if you drag your mouse along the chart under the map, you can see a timeline of your location history.  Looking through this timeline, I can recall all of the things that happened that month: I flew from Minneapolis to Seattle for New Years, drove to a nearby ski resort, traveled to Oklahoma City for work (DFW layover), visited San Francisco (SLC layover), back to Oklahoma City, down to Austin, TX (DFW layover), back to Oklahoma City, off to Minneapolis, back to Oklahoma City, then back to San Francisco for the weekend (MSP layover).  If you look closely near Seattle, you'll notice that a lot more points are plotted in that area.  Let's zoom in:
+							<br/><br/>
+							<img src="./img/googleLoc_2.png" align="middle" max-width="100%">
+							<br/><br/>
+							Here is where I drove to a ski resort with some friends.  I was using Google Maps to navigate, so it was constantly sending my location data to Google.  You can even see where I missed an exit near the bottom right, and added a whole lot of time to the trip (my friends do not know that I did this, but if they're reading this then they do now).  It also shows the return trip back to Seattle, where I didn't mess up and go the wrong way.  Just how accurate are these GPS coordinates?  Let's zoom in on my trip to San Francisco:
+							<br/><br/>
+							<img src="./img/googleLoc_3.png" align="middle" max-width="100%">
+							<br/><br/>
+							I can pinpoint the exact time and day I went and met somebody at Golden Gate Park (and I had a wonderful time, in case you were wondering).  By moving along the timeline chart I can clearly see the path I took around the city that day, the various stops I took, and how long of a night I had.  That is some extremely personal data of mine
+						</p>
+					</li>
+					<br/>
+				</ol>
+			</div>
+			<br/><br/>
+		</div>
+		<div class="footer_container"></div>
+	</body>
+</html>

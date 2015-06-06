@@ -1,0 +1,72 @@
+<style>
+	#logo{
+		width:242px;
+		height:46px;
+		color:rgba(0, 255, 64, 0.98);
+		background-color:#333;
+		font-family:Tahoma, Geneva, sans-serif;
+		box-sizing:border-box;
+		position:relative;
+		overflow:hidden;
+		font-size:64px;
+	}
+
+	.element{
+		position:absolute;
+		display:block;
+		margin:0;
+		padding:0;
+		white-space:nowrap;
+	}
+
+	.element p{
+		line-height:1;
+		margin:0;
+		padding:0;
+		text-rendering: optimizeLegibility;
+		font-feature-settings: "kern";
+		-webkit-font-feature-settings: "kern";
+		-moz-font-feature-settings: "kern";
+		-moz-font-feature-settings: "kern=1";
+	}
+
+	#logo_1{
+		font-size:40px;
+		font-weight:600;
+		color:#fff;
+		top:1px;
+		left:6px;
+	}
+
+	#logo_2{
+		font-size:40px;
+		font-weight:600;
+		top:1px;
+		left:80px;
+	}
+
+	#logo_3{
+		font-weight:600;
+		font-size:25px;
+		color:rgba(152, 163, 155, 0.98);
+		top:15px;
+		left:176px;
+	}
+
+</style>
+
+<a href="http://tedlano.com">
+	<div id="logo"> 
+		<div class="element logo-text pre-test" id="logo_1">
+			<p>Ted</p>
+		</div> 
+		
+		<div class="element logo-text pre-test" id="logo_2">
+			<p>Lano</p>
+		</div> 
+
+		<div class="element logo-text pre-test selected" id="logo_3" >
+			<p>.com</p>
+		</div> 
+	</div>
+</a>

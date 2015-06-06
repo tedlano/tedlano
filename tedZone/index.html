@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Ted Zone</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="icon" type="image/png" href="../img/favicon.png">
+
+		<!-- jQuery -->
+		<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+	 
+		<!-- DataTables -->
+		<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+		<script> 
+			$(function(){
+  				$(".header_container").load("../header.html");
+  				$(".footer_container").load("../footer.html"); 
+			});
+		</script> 
+		<script type="text/javascript" src="../js/main.js"></script>
+		<script type="text/javascript" src="./tedZone.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+
+
+	<body>
+		<a id="top"></a>
+		<div class="sticky">
+			<div class="header_container"></div>
+		</div>
+
+		<br/><br/>
+
+		<div>
+			<div class="content">
+				<h1>Welcome to the TedZone</h1>
+				<p>
+					Here's where I'll keep my personal things.  You may find them interesting, or self-serving, or poorly written; which is why I named it the TedZone.  Since this is my own little universe, I can make up an infinite amount of excuses and justifications for anything I write.  You're free to explore my little universe at your own leisure.
+				</p>
+			</div>
+
+			<br/><br/>
+			<div class="separator"></div>
+
+			<div id="recent_articles" class="content">
+				<h1>Recent Articles</h1>
+				<div id="article_table">
+					<table class="table_border">
+						<tr>
+							<td><b>Category</b></td>
+							<td><b>Description</b></td>
+							<td><b>Date</b></td>
+						</tr>
+						<tr>
+							<td>Informative</td>
+							<td>
+								<a href="../articles/chineseTouristsInAmerica.html">
+									For Chinese Tourists Visiting the USA
+								</a>
+							</td>
+							<td>2015-May-26</td>
+						</tr>
+						<tr>
+							<td>Meditation</td>
+							<td>
+								<a href="../articles/isolationTanks.html">
+									Sensory Deprivation Tanks
+								</a>
+							</td>
+							<td>2015-May-03</td>
+						</tr>
+						<tr>
+							<td>Self-Reflection</td>
+							<td>
+								<a href="../articles/OnTakingRisks.html">
+									Making Big Changes
+								</a>
+							</td>
+							<td>2015-Apr-29</td>
+						</tr>
+						<tr>
+							<td>Self-Reflection</td>
+							<td>
+								<a href="../articles/suckingAtThings.html">
+									Learning New Things
+								</a>
+							</td>
+							<td>2015-Apr-20</td>
+						</tr>
+						<tr>
+							<td>Miscellaneous</td>
+							<td>
+								<a href="../articles/ChinaHomestay.html">
+									Self-Introduction Letter for Chinese Homestay Program
+								</a>
+							</td>
+							<td>2015-Feb-25</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<br/><br/>
+
+			<div id="incomplete_articles" class="content">
+				<h1>Incomplete Articles</h1>
+				<p>
+					Sometimes I'll start writing something, but I won't feel like finishing it until later.  Instead of just letting it stew in purgatory, never to be seen, I figured there's no harm in posting them here.
+				</p>
+				<div id="article_table">
+					<table class="table_border">
+						<tr>
+							<td><b>Category</b></td>
+							<td><b>Description</b></td>
+						</tr>
+						<tr>
+							<td>Technology</td>
+							<td>
+								<a href="../articles/futureTech.html">
+									Future Technologies That Will Change Everything
+								</a>
+							</td>
+						</tr
+						<tr>
+							<td>Technology</td>
+							<td>
+								<a href="../articles/googleLocationHistory.html">
+									Relive Your Days via Google
+								</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<br/><br/>
+			<div class="separator"></div>
+
+			<div class="content">
+				<h1>Reading List</h1>
+				<p>If you're in the mood to learn or wish to look into some self-help books, here's a few that I really enjoyed.  Also FYI, I'm using a pretty nifty table widget here that allows you to filter search and sort on columns.  Programmers would appreciate that, everybody else probably doesn't notice it.</p>
+				<table id="reading_list" class="display table_border" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th><b>Category</b></th>
+							<th><b>Title</b></th>
+							<th><b>Author</b></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Productivity</td>
+							<td>Getting Things Done: The Art of Stress-Free Productivity</td>
+							<td>David Allen</td>
+						</tr>
+						<tr>
+							<td>Language Learning</td>
+							<td>Fluent in 3 Months: How Anyone at Any Age Can Learn to Speak Any Language From Anywhere in the World</td>
+							<td>Benny Lewis</td>
+						</tr>
+						<tr>
+							<td>Travel</td>
+							<td>Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel</td>
+							<td>Rolf Potts</td>
+						</tr>
+						<tr>
+							<td>History</td>
+							<td>How We Got to Now: Six Innovations That Made the Modern World</td>
+							<td>Steven Johnson</td>
+						</tr>
+						<tr>
+							<td>Productivity</td>
+							<td>The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich </td>
+							<td>Tim Ferris</td>
+						</tr>
+						<tr>
+							<td>Meditation</td>
+							<td>Mindfulness in Plain English</td>
+							<td>Bhante Henepola Gunaratana</td>
+						</tr>
+						<tr>
+							<td>Meditation</td>
+							<td>Letting Go of the Person You Used to Be</td>
+							<td>Lama Surya Das</td>
+						</tr>
+						<tr>
+							<td>Productivity</td>
+							<td>The Power of Habit: Why We Do What We Do in Life and Business</td>
+							<td>Charles Duhigg</td>
+						</tr>
+						<tr>
+							<td>Technology</td>
+							<td>In The Plex: How Google Thinks, Works, and Shapes Our Lives</td>
+							<td>Steven Levy</td>
+						</tr>
+						<tr>
+							<td>Biography</td>
+							<td>Steve Jobs</td>
+							<td>Walter Isaacson</td>
+						</tr>
+						<tr>
+							<td>Autobiography</td>
+							<td>Losing My Virginity: How I've Survived, Had Fun, and Made a Fortune Doing Business My Way</td>
+							<td>Richard Branson</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<br/><br/>
+			<div class="separator"></div>
+
+			<div class="content">
+				<h1>Cool Internet Resources</h1>
+				<p>Here are some of my favorite internet resources, especially because I feel productive when visiting them opposed to everything else on the internet.  I am honestly ashamed of all the time I waste on other internet sites, but funny pictures of cats aren't going to laugh at themselves.</p>
+				<table id="internet_site_list" class="display table_border" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th><b>Category</b></th>
+							<th><b>Name</b></th>
+							<th><b>Description</b></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Educational Videos</td>
+							<td><a href="https://www.youtube.com/user/Kurzgesagt" target="_blank">Kurzgesagt Youtube Channel</a></td>
+							<td>My favorite Youtube Channel by far.  Their animations are crisp and simplistic, and the narratives are clear and effective.  Burn a few minutes here and learn a thing or two about interesting things.</td>
+						</tr>
+						<tr>
+							<td>Educational Videos</td>
+							<td><a href="https://www.youtube.com/user/crashcourse/playlists" target="_blank">CrashCourse Youtube Channel</a></td>
+							<td>Another great educational channel on Youtube.  The videos are a bit longer, but they cram an amazing amount of information into them.  Well produced, well researched, and well executed..</td>
+						</tr>
+						<tr>
+							<td>Blog</td>
+							<td><a href="http://markmanson.net/" target="_blank">Mark Manson Blog</a></td>
+							<td>I'm actually afraid to link this because now it looks like I'm trying to rip this guy off, which is sort of true because I wish I were more like him.  His blogs are well-written, well-informed, and incredibly interesting.  He also has accomplishments to back up his words, whereas I am mostly just pontificating.</td>
+						</tr>
+						<tr>
+							<td>Blog</td>
+							<td><a href="http://blogmaverick.com/" target="_blank">Mark Cuban Blog</a></td>
+							<td>I learned more about Mark Cuban by watching the TV show "Shark Tank".  I bought his ebook, which is really a collection of some of his blog entries, and read through it during a flight.  What's not to love about a super sucessful entrepreneur who follows their instincts?</td>
+						</tr>
+						<tr>
+							<td>Educational</td>
+							<td><a href="http://memrise.com/" target="_blank">Memrise.com</a></td>
+							<td>This is my favorite language-learning resource.  I currently use it to study Mandarin and Tagalog, but have also used it for different subjects in the past.  I have even created my own courses: <a href="http://www.memrise.com/course/351640/the-seven-chakras/">The Seven Chakras</a> and <a href="http://www.memrise.com/course/362545/internet-mandarin/">Internet Mandarin</a>.</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!--
+			<iframe style="width: 400px; height: 378px;" src="https://www.amazon.com:/gp/ays/embed/container.html?view=_cat_agg_all&terms=&count=6&targetCustomerId=A2E5733L1EVLIL&showTitle=1&imageSize=a.i.home&selection=recent&orientation=landscape"></iframe> -->
+
+			
+			<br/><br/>
+
+		</div>
+
+		<div class="footer_container"></div>
+	</body>
+</html>
